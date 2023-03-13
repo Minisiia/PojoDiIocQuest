@@ -9,6 +9,9 @@ Create the Quest interface and several of its implementations, as well as the Kn
 
 Проведіть аналіз написаного коду із попереднього завдання на відповідність принципам SOLID.
 
+### Аналіз на відповідність принципам SOLID.
+
+
 ▪ ***Single responsibility principle – на кожен клас має бути покладений один-єдиний
 обов'язок.***
 
