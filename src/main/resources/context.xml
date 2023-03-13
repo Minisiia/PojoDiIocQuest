@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="darkForest"
+          class="quest.impl.DarkForest">
+        <constructor-arg value="Dark Forest: The knight ventures deep into the dark forest, where dangerous monsters and evil wizards dwell. His task is to find an ancient artifact that can save the kingdom from impending danger."/>
+    </bean>
+    <bean id="goldenGrail"
+          class="quest.impl.GoldenGrail">
+        <constructor-arg value="Golden Grail: The knight embarks on a quest to find the legendary Golden Grail, a holy chalice believed to possess magical powers. He must overcome various obstacles and find it before villains can use its power."/>
+    </bean>
+    <bean id="island"
+          class="quest.impl.IslandOfCurses">
+        <constructor-arg value="Island of Curses: The knight sets out on a perilous mission to an island cursed by a malevolent force. He must unravel the island's secrets and defeat the sinister sorcerer to free it from the curse and save its inhabitants."/>
+    </bean>
+</beans>
