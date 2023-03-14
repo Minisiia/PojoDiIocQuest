@@ -1,4 +1,4 @@
-package config;
+package quest.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
